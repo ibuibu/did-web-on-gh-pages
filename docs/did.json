@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:ibuibu.github.io:did-web-on-gh-pages",
+  "verificationMethod": [
+    {
+      "id": "did:web:ibuibu.github.io:did-web-on-gh-pages#key1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:ibuibu.github.io:did-web-on-gh-pages",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "VeClElAvZZBNyR1ni1hgpbHHNPvcyqWQI2LEgyqPbSU",
+        "y": "OgBJRfBXH_in3HCb2ifZspf3SJu8CMPwHqvwSiB4Fvk",
+        "crv": "secp256k1"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:ibuibu.github.io:did-web-on-gh-pages#key1"
+  ],
+  "assertionMethod": [
+    "did:web:ibuibu.github.io:did-web-on-gh-pages#key1"
+  ]
+}
